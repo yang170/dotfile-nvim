@@ -19,6 +19,7 @@ require("gruvbox").setup({
   contrast = "", -- can be "hard", "soft" or empty string
   palette_overrides = {},
   overrides = {
+    -- https://www.reddit.com/r/neovim/comments/jmuxm0/help_seeing_red_blocks_in_hover_definitions/
     -- otherwise background color for underscores in the signature help will be red
     MarkdownError = {
       bg = "#3b3836"
