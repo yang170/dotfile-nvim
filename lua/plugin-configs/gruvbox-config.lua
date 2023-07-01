@@ -18,7 +18,12 @@ require("gruvbox").setup({
   inverse = true, -- invert background for search, diffs, statuslines and errors
   contrast = "", -- can be "hard", "soft" or empty string
   palette_overrides = {},
-  overrides = {},
+  overrides = {
+    -- otherwise background color for the underscore in the signature help will be red
+    MarkdownError = {
+      bg = "#3b3836"
+    }
+  },
   dim_inactive = false,
   transparent_mode = false,
 })
