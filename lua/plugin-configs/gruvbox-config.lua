@@ -19,7 +19,7 @@ require("gruvbox").setup({
   contrast = "", -- can be "hard", "soft" or empty string
   palette_overrides = {},
   overrides = {
-    -- otherwise background color for the underscore in the signature help will be red
+    -- otherwise background color for underscores in the signature help will be red
     MarkdownError = {
       bg = "#3b3836"
     }
