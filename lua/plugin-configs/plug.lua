@@ -84,7 +84,7 @@ require("lazy").setup({
   },
 
   -- clipboard
-  "ojroques/vim-oscyank",
+  -- "ojroques/vim-oscyank",
 
   -- commenting / uncommenting
   "tpope/vim-commentary",
